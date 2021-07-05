@@ -38,7 +38,7 @@ function Todolist({ todos,setTodos }) {
   }
 
   if (!todos.length) {
-    return <p>No todos left!</p>;
+    return <p style={{'textAlign':'center','color':'tomato','fontSize':'small'}}>No todos left!</p>;
   }
 
 
