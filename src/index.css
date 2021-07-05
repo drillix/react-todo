@@ -1,13 +1,82 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',  sans-serif;
+  background-color: #dadfe0;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h3 {
+  text-align: center;
+}
+ul{
+  padding-left: 0px !important;
+}
+
+ul li{
+  list-style-type: none;
+  cursor: pointer;
+  margin-bottom: 5px;
+  padding-left: 12px;
+  color: slategray;
+
+}
+
+li span{
+  float: right;
+  color:tomato;
+  font-weight: bolder;
+  cursor: pointer;
+  margin-right: 14px;
+}
+
+form{
+  padding-left: 7px;
+  margin-top: 25px;
+}
+
+
+.App{
+  text-align: left !important;
+  width: 300px;
+  height: auto;
+  border: 1px solid slategray;
+  margin: 0px auto;
+  padding-bottom: 15px;
+  margin-top: 20vh;
+  background-color: white;
+  border-radius: 0.3rem;
+
+}
+
+form input{
+  border-radius: 0.17rem;
+  border: 0.1rem solid slategray;
+  width: 68%;
+  padding: 0.20rem;
+  box-sizing: border-box;
+}
+
+form input:focus {
+  outline: none;
+  border: 0.1rem solid cadetblue;
+  border-radius: 0.17rem;
+
+}
+form button{
+  width: 24%;
+  background-color: cadetblue;
+  cursor: pointer;
+  color: white;
+  padding: 0.010rem;
+  border: 0.3rem solid cadetblue;
+  border-radius: 0.17rem;
+  margin-left: 1px;
+}
+form button:hover{
+  border-radius: 0.17rem;
+background-color: white;
+color: cadetblue;
+padding:0.2rem ;
+transition-duration: 200ms;
+border: 0.1rem solid slategray;
 }
